@@ -1,4 +1,183 @@
-h1,p,body{
-    color: red;
-    background-color: aquamarine;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a {
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: black ;
+        text-decoration: none;
+        
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10px;
+    height: 70px;
+    ;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: 290px;
+    
+}
+
+.nav__links {
+    list-style: none;
+}
+
+
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color:white;
+    border-radius: 50px;
+    background-color: rgb(97, 157, 247);
+    padding: 9px 10px;
+
+}
+
+
+.one{
+    background-color: rgb(0, 110, 180);
+}
+.uk,.write {
+    border: none;
+    background-color: rgb(0, 110, 180);
+    font-family: "montsarat" , sans-serif;
+    font-size: 15px;
+    word-spacing: 0px;
+    
+}
+.write {
+    color: white;
+}
+
+
+
+button{
+    background-color: white;
+    color: #928e8e;
+    border: black;
+    border-collapse: collapse;
+    
+}
+.ones {
+    height: 45px;
+}
+.uk1{
+    width: 80px; 
+    height: 26px;
+}
+.uk2{
+    width: 90px; 
+    height: 26px;
+}
+.uk3{
+    width: 90px; 
+    height: 26px;
+}
+.active {
+    color:white;
+    border-radius: 50px;
+    background-color: rgb(0, 102, 255);
+    padding: 9px 20px;
+}
+.twos{
+    height: 30px;
+    color: white;
+}
+h2{
+    font-family: "montsarat",sans-serif;
+}
+.columno{
+    font-size: 50px;
+}
+.o{
+    color: white;
+}
+.t{
+    color: rgb(2, 194, 2);
+}
+.o,.t{
+    display: inline;
+    background-color: rgb(0, 102, 255);
+    
+}
+.columno,.columnt,.column{
+     background-color: rgb(0, 102, 255);
+     color: white;
+     
+}
+.tableo{
+    background-color: rgb(0, 102, 255);
+    size: 150px;
+}
+.mota{
+    background-color: rgb(0, 102, 255);
+}
+.ch{
+    background-color: rgb(0, 102, 255);
+}
+#tum{
+    background-color: rgb(0, 102, 255);   
+}
+
+.mon{
+    box-shadow: 11px 5px 20px rgb(95, 92, 92);
+    background-color: white;
+}
+
+.hosla{
+    background-color: rgb(42, 42, 41);
+    padding: 80px 80px 80px 80px;
+}
+.jum{
+    background-color: rgb(42, 42, 41);
+    width: 1000px;
+    color: rgb(160, 157, 157);
+}
+.lum{
+    background-color: rgb(42, 42, 41);
+}
+.tree
+{
+    background-color: rgb(42, 42, 41);
+}
+.coldi,.coola,.cancle{
+    width: 1000px;
+    background-color: rgb(0, 110, 180);
+}
+.cancle{
+    padding: 10px 100px 10px;
+    width: 1000px;
+    
+}
+.coldi{
+    width: 1000px;
+    color: white;
+    font-family: "Montsarate" sans-serif;
+    size: 20px;
+}
+.ludo{
+    width: 1000px;
 }
